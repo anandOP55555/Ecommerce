@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Recipes - Discover Delicious Meals</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>Tasty Recipes</h1>
+            </div>
+            <nav class="nav-menu">
+                <a href="#" class="active">Home</a>
+                <a href="#">Recipes</a>
+                <a href="#">Login/Sign Up</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="search-container">
+            <div class="search-wrapper">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" id="searchInput" placeholder="Search for recipes...">
+            </div>
+        </div>
+
+        <div class="recipes-grid" id="recipesGrid">
+            <!-- Recipe cards will be dynamically inserted here -->
+        </div>
+
+        <div class="load-more-container">
+            <button id="loadMoreBtn" class="load-more-btn">Load More</button>
+        </div>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
